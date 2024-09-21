@@ -2,8 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/@teledeveloperz/twa-sdk.svg)](https://www.npmjs.com/package/@teledeveloperz/twa-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/travis/TeleDeveloperz/twa-sdk/main.svg)](https://travis-ci.org/TeleDeveloperz/twa-sdk)
-[![Coverage Status](https://img.shields.io/coveralls/github/TeleDeveloperz/twa-sdk/main.svg)](https://coveralls.io/github/TeleDeveloperz/twa-sdk?branch=main)
 
 An enhanced TypeScript SDK for Telegram Web Apps (TWA), providing easy access to user data and Telegram Bot API functionality.
 
