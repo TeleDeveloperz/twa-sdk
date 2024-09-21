@@ -1,0 +1,40 @@
+{
+  "name": "@teledeveloperz/twa-sdk",
+  "version": "1.0.0",
+  "description": "Enhanced Telegram Web Apps (TWA) SDK on TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src tests",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["telegram", "web", "apps", "sdk", "twa"],
+  "author": "TeleDeveloperz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "husky": "^7.0.0",
+    "jest": "^27.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
